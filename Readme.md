@@ -1,5 +1,5 @@
-["PT-BR"]("imagens\Brasil.png")
-["EN-US"]("imagens\EUA.png")
+!["PT-BR"](imagens\Brasil.png)
+!["EN-US"](imagens\EUA.png)
 
 
 # Projeto
