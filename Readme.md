@@ -24,6 +24,6 @@ The project consists of collecting data using python applications and writting i
 | Docker | Pending |
 | Data Lake | Pending |
 | Data LakeHouse | Pending |
-| Data Vault | PendePendingnte |
+| Data Vault | Pending |
 | Airflow | Pending |
 | Cluster Kubernetes | Pending |
