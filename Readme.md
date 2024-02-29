@@ -1,3 +1,7 @@
+!["PT-BR"]("imagens\Brasil.png")
+!["EN-US"]("imagens\EUA.png")
+
+
 # Projeto
 Este repositório mantém um projeto de Engenharia de Dados que visa coletar dados do cenário econômico brasileiro. Inicialmente, a maior parte dos dados é sobre empresas listadas na B3 (Brasil, Bolsa, Balcão).
 
