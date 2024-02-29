@@ -1,0 +1,9 @@
+builder/__pycache__
+builder/secrets
+builder_venv
+builder/directory.log
+builder/extract.log
+directory.log
+extract.log
+sources
+datalakehouse
