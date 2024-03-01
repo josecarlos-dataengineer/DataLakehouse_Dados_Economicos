@@ -15,6 +15,16 @@ O projeto consiste em coletar dados usando python e escrevê-los no datalake S3,
 | Cluster Kubernetes | Pendente |
 
 ## Configuração do ambiente.
+A primeira etapa para configurar o ambiente é clonar este repositório.
+Após clonar, crie uma pasta chamada secrets, dentro da pasta builder, e dentro dessa pasta crie um arquivo chamado .env. Após criá-lo, registre suas credenciais AWS conforme abaixo:
+```
+aws_access_key_id=515sa151561f51f56
+aws_secret_access_key_id=avvfuavufaf5a5f
+aws_region=us-east-2
+```
+Certifique-se alterar a região para a sua região preferida, e de não fazer upload desse arquivo para repositórios públicos.
+
+
 Para evitar problemas de compatibilidade de dependências, será usado o Docker para conteinerizar a aplicação.
 Para padronizar, chamaremos a imagem de elt_app com a versão latest. <br>
 ```docker build -t elt_app:latest -f Dockerfile_python . ```
@@ -64,7 +74,9 @@ pwd = params.workdir['local']
 
 dotenv_path = Path(fr'{pwd}/builder/secrets/.env')
 ```
-A variável pwd recebe o caminho do root, que pode ser local ou container. Este valor vem do dicionário workdir contido no módulo params.py
+A variável pwd recebe o caminho do root, que pode ser local ou container. Este valor vem do dicionário workdir contido no módulo params.py. Caso você tente executar localmente, o parâmetro do dicionário deverá ser **local** e o valor do dicionário deverá ser o caminho para a pasta DATALAKEHOUSE_DADOS_ECONOMICOS clonada na sua máquina.
+Caso for executar em container Docker, não é necessário alterar o caminho, pois ele já é definido como WORKDIR durante a montagem da imagem Dockerfile_python. 
+
 
 
 
