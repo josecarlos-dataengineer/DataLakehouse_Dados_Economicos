@@ -17,7 +17,7 @@ O projeto consiste em coletar dados usando python e escrevê-los no datalake S3,
 ## Configuração do ambiente.
 Para evitar problemas de compatibilidade de dependências, será usado o Docker para conteinerizar a aplicação.
 Para padronizar, chamaremos a imagem de elt_app com a versão latest. <br>
-'''docker build -t elt_app:latest -f Dockerfile_python . '''
+```docker build -t elt_app:latest -f Dockerfile_python . ```
 
 'FROM python:3.9-bullseye
 
