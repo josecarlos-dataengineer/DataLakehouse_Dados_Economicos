@@ -47,7 +47,10 @@ Após construir a imagem você poderá acessá-la e checar alguns detalhes:
 ## Extração dos dados para o S3
 O arquivo main.py faz a chamada das classes utilizadas para extrair os dados da fonte e salvar no S3, criando a pasta do dia e salvando o arquivo. <br>
 O Datalake contém as camadas landing e processed, sendo que a landing recebe os arquivos sem alteração na estrutura. A camada processed recebe os arquivos da landing convertidos em csv com encoding UTF-8. <br>
-No S3 também existem as camadas bronze, silver e gold, que servem de abstração para abordagem Data Lakehouse, que serão explicadas na sessão ***Data Lakehouse***
+No S3 também existem as camadas bronze, silver e gold, que servem de abstração para abordagem Data Lakehouse, que serão explicadas na sessão ***Data Lakehouse***. Os módulos contidos na pasta builder movimentam os dados até a camada bronze, salvando-os em formato parquet.
+Módulos:
+Dentro da pasta builder, estão os módulos responsáveis por toda a criação da extração até a camada bronze. Estes módulos estão segmentados de acordo com sua finalidade, por exemplo o módulo conn_builder contém as classes desenvolvidas para estabelecer conexões. O módulo dir_builder contém as classes desenvolvidas para a estruturação de diretórios, bem como o módulo extract_builder contém as classes criadas para as extrações. 
+No módulo conn_builder você encontrará a criação de conexão com AWS, GCP, Mongo e MySQL, embora algumas classes ainda não estejam em uso, foram desenvolvidas para etapas vindouras.
 
 
 
