@@ -45,6 +45,11 @@ Após construir a imagem você poderá acessá-la e checar alguns detalhes:
 ``` docker run -it ***containerID*** bash ```
 
 ## Extração dos dados para o S3
+O arquivo main.py faz a chamada das classes utilizadas para extrair os dados da fonte e salvar no S3, criando a pasta do dia, hora ou mês corrente, dependendo do tipo de extração, que pode ser configurada na chamada: <br>
+* daily: salva com estrutura de pasta yyyy/mm/dd/ <br>
+* hourly: salva com estrutura de pasta yyyy/mm/dd/hh/ <br>
+* monthly: salva com estrutura de pasta yyyy/mm/ <br>
+
 
 
 
