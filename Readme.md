@@ -47,11 +47,24 @@ Após construir a imagem você poderá acessá-la e checar alguns detalhes:
 ## Extração dos dados para o S3
 O arquivo main.py faz a chamada das classes utilizadas para extrair os dados da fonte e salvar no S3, criando a pasta do dia e salvando o arquivo. <br>
 O Datalake contém as camadas landing e processed, sendo que a landing recebe os arquivos sem alteração na estrutura. A camada processed recebe os arquivos da landing convertidos em csv com encoding UTF-8. <br>
-No S3 também existem as camadas bronze, silver e gold, que servem de abstração para abordagem Data Lakehouse, que serão explicadas na sessão ***Data Lakehouse***. Os módulos contidos na pasta builder movimentam os dados até a camada bronze, salvando-os em formato parquet.
+No S3 também existem as camadas bronze, silver e gold, que servem de abstração para abordagem Data Lakehouse, que serão explicadas na sessão ***Data Lakehouse***. Os módulos contidos na pasta builder movimentam os dados até a camada bronze, salvando-os em formato parquet. <br>
 Módulos:
 Dentro da pasta builder, estão os módulos responsáveis por toda a criação da extração até a camada bronze. Estes módulos estão segmentados de acordo com sua finalidade, por exemplo o módulo conn_builder contém as classes desenvolvidas para estabelecer conexões. O módulo dir_builder contém as classes desenvolvidas para a estruturação de diretórios, bem como o módulo extract_builder contém as classes criadas para as extrações. 
-No módulo conn_builder você encontrará a criação de conexão com AWS, GCP, Mongo e MySQL, embora algumas classes ainda não estejam em uso, foram desenvolvidas para etapas vindouras.
+No módulo conn_builder você encontrará a criação de conexão com AWS, GCP, Mongo e MySQL, embora algumas classes ainda não estejam em uso, foram desenvolvidas para etapas futuras.
+Para executar o arquivo main.py, execute o seguinte comando: <br>
+``` docker run containerID python main.py ```
+Ao executar o comando serão apresentados os logs de cada etapa do processo, e por fim você terá os arquivos armazenados no S3 conforme esperado. Caso tenha algum problema na execução, consulte novamente a sessão configuração de ambiente, apresentada ateriormente. Erros comuns são:
+Access Denied: Esse erro aponta que o script não localizou as credenciais AWS ou elas estão invélidas, e as possíveis causas são: <br>
+1 - A pasta secrets não foi criada e devidamente abastecida com as credenciais AWS
+2 - A pasta secrets foi criada, porém as credenciais estão inválidas.
+3 - O caminho para a pasta secrets, registrado no módulo conn_builder está errado.
+4 - O dicionário workdir dentro do módulo params não está apontando para o local raiz exato para o projeto. Veja um exemplo da definição do caminho para o arquivo .env:
+```
+pwd = params.workdir['local']
 
+dotenv_path = Path(fr'{pwd}/builder/secrets/.env')
+```
+A variável pwd recebe o caminho do root, que pode ser local ou container. Este valor vem do dicionário workdir contido no módulo params.py
 
 
 
