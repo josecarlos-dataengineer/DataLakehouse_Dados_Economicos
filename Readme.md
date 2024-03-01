@@ -22,7 +22,14 @@ aws_access_key_id=515sa151561f51f56
 aws_secret_access_key_id=avvfuavufaf5a5f
 aws_region=us-east-2
 ```
-Certifique-se alterar a região para a sua região preferida, e de não fazer upload desse arquivo para repositórios públicos.
+Certifique-se alterar a região para a sua região preferida, e de não fazer upload desse arquivo para repositórios públicos. Pois suas credenciais podem ser utilizadas maliciosamente por terceiros.
+Feito isso, já é possível executar o processo em Docker container. Basta ajustar para **local**, o valor do dicionário workdir nos módulos conn_builder e extract_builder.
+
+Mas caso queira executar localmente, siga os passos a seguir:
+No módulo params.py, acesse o dicionário chamado workdir e altere o caminho da chave **local** inserindo o caminho para a pasta DATALAKEHOUSE_DADOS_ECONOMICOS na máquina local. Faça o mesmo no arquivo main.py, ajustando a variável pwd.
+Logo após, ajuste para local, o valor do dicionário workdir nos módulos conn_builder e extract_builder.
+
+
 
 
 Para evitar problemas de compatibilidade de dependências, será usado o Docker para conteinerizar a aplicação.
