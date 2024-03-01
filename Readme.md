@@ -15,7 +15,7 @@ O projeto consiste em coletar dados usando python e escrevê-los no datalake S3,
 | Airflow | Pendente |
 | Cluster Kubernetes | Pendente |
 
-## Configuração do ambiente.
+## Configuração do ambiente (Etapa Datalake).
 A primeira etapa para configurar o ambiente é clonar este repositório.
 Após clonar, crie uma pasta chamada secrets, dentro da pasta builder, e dentro dessa pasta crie um arquivo chamado .env. Após criá-lo, registre suas credenciais AWS conforme abaixo:
 ```
