@@ -7,10 +7,11 @@ O projeto consiste em coletar dados usando python e escrevê-los no datalake S3,
 | Etapa | Estado |
 | ------| ------ |
 | Python - ELT Data Lake | Feito |
-| Docker | Feito |
-| Data Lake | Pendente |
-| Data LakeHouse | Pendente |
-| Data Vault | Pendente |
+| Docker_python | Feito |
+| Docker_spark | Feito |
+| Data Lake | Feito |
+| Data LakeHouse | Em andamento |
+| Data Vault | Em andamento |
 | Airflow | Pendente |
 | Cluster Kubernetes | Pendente |
 
@@ -60,6 +61,9 @@ ENV CONTAINERPATH=/workspaces/app
 Após construir a imagem você poderá acessá-la e checar alguns detalhes:
 
 ``` docker run -it ***containerID*** bash ```
+Ao executar o comando acima você pode verificar o container criado, usando shell:
+pwd: mostrará o diretório de trabalho, que deve ser /workspaces/app
+ls: mostrará dois arquivos e uma pasta, sendo main.py, requirements.txt e a pasta builder.
 
 ## Extração dos dados para o S3
 O arquivo main.py faz a chamada das classes utilizadas para extrair os dados da fonte e salvar no S3, criando a pasta do dia e salvando o arquivo. <br>
