@@ -19,6 +19,7 @@ Para evitar problemas de compatibilidade de dependências, será usado o Docker 
 Para padronizar, chamaremos a imagem de elt_app com a versão latest. <br>
 ```docker build -t elt_app:latest -f Dockerfile_python . ```
 
+Dockerfile
 ``` 
 FROM python:3.9-bullseye
 
@@ -41,7 +42,7 @@ ENV CONTAINERPATH=/workspaces/app
 
 Após construir a imagem você poderá acessá-la e checar alguns detalhes:
 
-'docker run -it ***containerID*** bash'
+``` docker run -it ***containerID*** bash ```
 
 ## Extração dos dados para o S3
 
