@@ -1,5 +1,4 @@
 FROM python:3.9-bullseye
-# RUN  pip install --upgrade pip \ pymongo \ pandas \ pyarrow \ mysql-connector-python
 
 RUN mkdir -p /workspaces/app
 RUN apt update 
