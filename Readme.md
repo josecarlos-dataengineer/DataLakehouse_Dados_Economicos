@@ -7,12 +7,45 @@ O projeto consiste em coletar dados usando python e escrevê-los no datalake S3,
 | Etapa | Estado |
 | ------| ------ |
 | Python - ELT Data Lake | Feito |
-| Docker | Pendente |
+| Docker | Feito |
 | Data Lake | Pendente |
 | Data LakeHouse | Pendente |
 | Data Vault | Pendente |
 | Airflow | Pendente |
 | Cluster Kubernetes | Pendente |
+
+## Configuração do ambiente.
+Para evitar problemas de compatibilidade de dependências, será usado o Docker para conteinerizar a aplicação.
+Para padronizar, chamaremos a imagem de elt_app com a versão latest.
+'docker build -t elt_app:latest -f Dockerfile_python . '
+
+'FROM python:3.9-bullseye
+
+# RUN  pip install --upgrade pip \ pymongo \ pandas \ pyarrow \ mysql-connector-python
+
+RUN mkdir -p /workspaces/app
+RUN apt update 
+RUN apt install nano
+
+COPY /builder /workspaces/app/
+COPY /requirements.txt /workspaces/app/requirements.txt
+COPY /main.py /workspaces/app/environment.py
+
+
+WORKDIR /workspaces/app
+RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir cryptography
+
+ENV PYTHONPATH=/usr/local/lib/python3.9/dist-packages
+ENV CONTAINERPATH=/workspaces/app '
+
+Após construir a imagem você poderá acessá-la e checar alguns detalhes:
+
+'docker run -it ***containerID*** bash'
+
+## Extração dos dados para o S3
+
+
 
 
 # Project.

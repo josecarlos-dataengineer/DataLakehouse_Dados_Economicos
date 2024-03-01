@@ -32,6 +32,8 @@ profiles = {'admin':'admin',
             'data_engineer':'data_engineer',
             'tester':'tester'}
 
+workdir = {'local':'C:/Users/SALA443/Desktop/Projetos/josecarlos-dataengineer/DataLakehouse_Dados_Economicos/',
+        'container':'/workspaces/app/'}
 
 
 

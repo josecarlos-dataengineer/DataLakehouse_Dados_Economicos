@@ -19,8 +19,10 @@ import zipfile
 from params import *
 from dir_builder import builder, pipelines
 
+
 key = builder(is_cloud=1,frequency='daily',schedule=1).key_builder()
 
+pwd = workdir['local']
 
 
 # ----------------------------------------------------------------------------
@@ -232,13 +234,13 @@ class write_to_s3():
 class fundamentei_files():
     def to_s3(destination:str,key:str,context:str):
         client = aws_connection(profile='admin',provider='s3').conn()
-        lista_de_arquivos = os.listdir('C:/Users/SALA443/Desktop/Projetos/josecarlos-dataengineer/template/criação de ambiente/builder/sources')
+        lista_de_arquivos = os.listdir(fr'{pwd}builder/sources')
 
         for arquivo in lista_de_arquivos:
             if arquivo[-4:] == '.csv':
                 lista_de_arquivos.remove(arquivo)
                 for i in lista_de_arquivos:    
-                    with open(f"C:/Users/SALA443/Desktop/Projetos/josecarlos-dataengineer/template/criação de ambiente/builder/sources/{i}", 'r') as arquivo:        
+                    with open(fr"{pwd}builder/sources/{i}", 'r') as arquivo:        
                         data = json.load(arquivo)              
                         data = json.dumps(data,indent=2)
                         client.put_object(
@@ -271,7 +273,18 @@ class fundamentei_files():
                         Bucket=destination,
                         Key=f'{key}/{context}/fundamentei.csv')
         
-        
+layer, bucket, path, key = builder(
+                                    is_cloud=1,
+                                    frequency='daily',
+                                    schedule=1           
+                                    ).mount(
+                                        prefix='de',
+                                        provider='s3',
+                                        layer='1',
+                                        arquitecture='datalake',
+                                        root='de',
+                                        context='case')    
+# write_to_s3.cad_to_s3(target_bucket=bucket,key=key,file='cad.csv')
 
        
        

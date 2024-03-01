@@ -10,6 +10,7 @@ import mysql.connector
 from pathlib import Path
 import pymongo
 import os
+import params
 
 # ----------------------------------------------------------------------------
 # ---------------------- Definição de logging --------------------------------
@@ -23,9 +24,14 @@ logging.basicConfig(
 
 # ----------------------------------------------------------------------------
 # ---------------------- Definição de variáveis ------------------------------
+pwd = params.workdir['local']
 
-dotenv_path = Path(r'C:\Users\SALA443\Desktop\Projetos\josecarlos-dataengineer\template\criação de ambiente\builder\secrets\.env')
+dotenv_path = Path(fr'{pwd}/builder/secrets/.env')
+
 load_dotenv(dotenv_path=dotenv_path)
+
+# print(os.getenv("aws_access_key_id"))
+# print(os.getenv("aws_secret_access_key_id"))
 
 # ----------------------------------------------------------------------------
 # ---------------------- Definição das conexões (Databases)-------------------
@@ -119,7 +125,7 @@ parameters will be required manually"}
             # log checkpoint
             logging.info('admin profile was chosen')
             return {"aws_access_key_id":os.getenv("aws_access_key_id"),
-                    "aws_secret_access_key":os.getenv("aws_secret_access_key"),
+                    "aws_secret_access_key_id":os.getenv("aws_secret_access_key_id"),
                     "aws_region":os.getenv("aws_region")}
             
         else:
@@ -128,17 +134,22 @@ parameters will be required manually"}
             
             return {
         "aws_access_key_id":os.getenv("excepetion_aws_access_key_id"),
-        "aws_secret_access_key":os.getenv("excepetion_aws_secret_access_key"),
+        "aws_secret_access_key":os.getenv("excepetion_aws_secret_access_key_id"),
         "aws_region":os.getenv("excepetion_aws_region")}
     
     def conn(self):
         
         try:            
-            credentials = aws_connection(self.profile,self.provider).account            
+            credentials = aws_connection(self.profile,self.provider).account  
+            
+            # print(credentials['aws_access_key_id'])    
+            # print(credentials['aws_secret_access_key_id'])        
+            
             client = boto3.client(self.provider,                              
                 aws_access_key_id     =   credentials['aws_access_key_id'],
-                aws_secret_access_key =   credentials['aws_secret_access_key']
+                aws_secret_access_key =   credentials['aws_secret_access_key_id']
                 )
+            
             logging.info(f"Access granted for credentials starting with \
 {credentials['aws_access_key_id'][:7]}")
             
@@ -155,7 +166,7 @@ for {self.profile} profile."):
             credentials = aws_connection(self.profile,self.provider).account
             session = boto3.Session(
                 aws_access_key_id= credentials['aws_access_key_id'],
-                aws_secret_access_key= credentials['aws_secret_access_key'],
+                aws_secret_access_key= credentials['aws_secret_access_key_id'],
             )
             logging.info(f"Access granted for credentials starting with \
 {credentials['aws_access_key_id'][:7]}")
@@ -195,3 +206,6 @@ for {self.profile} profile."):
             return s3_file_list
             
 
+# credentials = aws_connection(profile='admin',provider='s3').account
+# print(credentials)
+# client = aws_connection(profile='admin',provider='s3').conn()
