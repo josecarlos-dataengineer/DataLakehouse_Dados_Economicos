@@ -1,0 +1,6 @@
+Revise os parametros passados para a conexão. -  criar - environment.py - 2024-03-04 21:37:01,208
+conexão criada para
+host=localhost
+user=root
+password=****
+database=db -  criar - environment.py - 2024-03-04 21:37:25,715

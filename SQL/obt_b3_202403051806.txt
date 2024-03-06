@@ -1,0 +1,400 @@
+|papel|DENOM_COMERC                                            |div_yield|atuacao                       |segmento_listagem|cresc_rec_cinco_anos|reclameaquinota|reclameaquitexto|patrim_liq     |
+|-----|--------------------------------------------------------|---------|------------------------------|-----------------|--------------------|---------------|----------------|---------------|
+|BBAS3|BANCO DO BRASIL S.A.                                    |0.83     |Bancos                        |Novo Mercado     |0.34                |8              |Ótimo           |163,638,000,000|
+|ELET3|ELETROBRAS                                              |0.51     |Energia - Distribuição        |Nível 1          |0.38                |na             |na              |113,118,000,000|
+|ELET5|ELETROBRAS                                              |0        |Energia - Distribuição        |Nível 1          |0.38                |na             |na              |113,118,000,000|
+|CEBR3|CEB - COMPANHIA ENERGÉTICA DE BRASÍLIA                  |0.52     |Energia - Distribuição        |Tradicional      |0.74                |7.9            |Bom             |1,045,450,000  |
+|CEBR5|CEB - COMPANHIA ENERGÉTICA DE BRASÍLIA                  |0.06     |Energia - Distribuição        |Tradicional      |0.74                |7.9            |Bom             |1,045,450,000  |
+|ARML3|na                                                      |0.79     |na                            |na               |0.64                |-1             |na              |1,213,290,000  |
+|TELB3|TELEBRAS                                                |0        |Telecomunicações              |Tradicional      |0.75                |na             |na              |1,586,870,000  |
+|TELB4|TELEBRAS                                                |0        |Telecomunicações              |Tradicional      |0.75                |na             |na              |1,586,870,000  |
+|ATOM3|ATOM EMPREENDIMENTOS E PARTICIPAÇÕES S.A.               |0.4      |Mercado Financeiro            |Tradicional      |0.53                |8.4            |Ótimo           |18,297,000     |
+|AMER3|AMERICANAS S.A. - EM RECUPERAÇÃO JUDICIAL               |0        |Varejo - Geral                |Novo Mercado     |0.76                |8.9            |Ótimo           |-26,666,600,000|
+|ENGI3|ENERGISA                                                |0.71     |Energia - Distribuição        |Nível 2          |0.47                |5.1            |Ruim            |12,045,000,000 |
+|ENGI4|ENERGISA                                                |0.28     |Energia - Distribuição        |Nível 2          |0.47                |5.1            |Ruim            |12,045,000,000 |
+|CIEL3|CIELO S.A. - INSTITUIÇÃO DE PAGAMENTO                   |0.39     |Meios de Pagamento            |Novo Mercado     |0.03                |8.9            |Ótimo           |12,258,800,000 |
+|NEOE3|NEOENERGIA S.A.                                         |0.45     |Energia - Distribuição        |Novo Mercado     |0.5                 |na             |na              |29,866,000,000 |
+|LIPR3|ELETROPAR                                               |0.68     |Holding                       |Tradicional      |0                   |na             |na              |215,774,000    |
+|GFSA3|GAFISA                                                  |0        |Construção                    |Novo Mercado     |0.32                |6.1            |Regular         |1,687,910,000  |
+|FIGE3|INVESTIMENTOS BEMGE                                     |0.32     |Financeira                    |Tradicional      |0.15                |na             |na              |160,202,000    |
+|FIGE4|INVESTIMENTOS BEMGE                                     |0.11     |Financeira                    |Tradicional      |0.15                |na             |na              |160,202,000    |
+|SEQL3|na                                                      |0        |Logística e Rodoviário        |Novo Mercado     |0.83                |5.4            |Ruim            |126,809,000    |
+|BRFS3|BRF S.A.                                                |0        |Alimentos - Carnes e Derivados|Novo Mercado     |0.07                |7.8            |Bom             |14,121,800,000 |
+|CSUD3|CSU DIGITAL S.A.                                        |0.44     |Software                      |Novo Mercado     |0.28                |na             |na              |412,720,000    |
+|PEAB3|CIA. DE PARTICIPAÇÕES ALIANÇA DA BAHIA                  |0.48     |Holding                       |na               |0.46                |na             |na              |690,575,000    |
+|PEAB4|CIA. DE PARTICIPAÇÕES ALIANÇA DA BAHIA                  |0.5      |Holding                       |na               |0.46                |na             |na              |690,575,000    |
+|PSSA3|PORTO SEGURO SA                                         |0.45     |Seguros                       |Novo Mercado     |0.92                |7.5            |Bom             |11,857,900,000 |
+|DEXP3|DEXXOS PARTICPAÇÕES S.A.                                |0.28     |Químicos                      |Nível 1          |0.46                |na             |na              |690,501,000    |
+|DEXP4|DEXXOS PARTICPAÇÕES S.A.                                |0        |Químicos                      |Nível 1          |0.46                |na             |na              |690,501,000    |
+|FIQE3|na                                                      |0.15     |na                            |na               |0.24                |-1             |na              |1,079,370,000  |
+|EMAE4|EMAE                                                    |0.59     |Energia - Geração             |Tradicional      |0.39                |na             |na              |1,159,060,000  |
+|EKTR3|ELEKTRO REDES S.A.                                      |0.14     |Energia - Distribuição        |Tradicional      |0.32                |8.4            |Ótimo           |2,999,000,000  |
+|EKTR4|ELEKTRO REDES S.A.                                      |0.87     |Energia - Distribuição        |Tradicional      |0.32                |8.4            |Ótimo           |2,999,000,000  |
+|TGMA3|TEGMA GESTÃO LOGÍSTICA SA                               |0.66     |Logística e Rodoviário        |Novo Mercado     |0.54                |na             |na              |819,533,000    |
+|LWSA3|LOCAWEB SERVIÇOS DE INTERNET S.A.                       |0.96     |Serviços Diversos             |Novo Mercado     |0.7                 |8.5            |Ótimo           |2,921,510,000  |
+|PDTC3|--                                                      |0        |Holding                       |na               |0.48                |na             |na              |153,248,000    |
+|RAIL3|ALL - AMÉRICA LATINA LOGÍSTICA S.A.                     |0.28     |Logística e Ferroviário       |Novo Mercado     |0.29                |na             |na              |15,936,700,000 |
+|TIMS3|TIM S.A.                                                |0.94     |Telecomunicações              |Novo Mercado     |0.9                 |8.3            |Ótimo           |26,015,900,000 |
+|CPFE3|CPFL ENERGIA S.A.                                       |0.11     |Energia - Distribuição        |Novo Mercado     |0.03                |7.7            |Bom             |18,172,700,000 |
+|EGIE3|TRACTEBEL ENERGIA                                       |0.18     |Energia - Geração             |na               |0.91                |na             |na              |8,436,830,000  |
+|VIVT3|TELEFÔNICA BRASIL                                       |0.8      |Telecomunicações              |Tradicional      |0.92                |0              |Não Recomendada |69,269,900,000 |
+|STBP3|SANTOS BRASIL PARTICIPAÇÕES S.A.                        |0.99     |Logística e Portuário         |Novo Mercado     |0.95                |na             |na              |2,191,630,000  |
+|COGN3|KROTON EDUCACIONAL S.A.                                 |0        |Educação                      |Novo Mercado     |0.35                |7              |Bom             |12,083,300,000 |
+|CCRO3|CCR S.A.                                                |0.41     |Exploração de Rodovias        |Novo Mercado     |0.01                |5.3            |Ruim            |12,462,200,000 |
+|SHOW3|T4F ENTRETENIMENTO SA                                   |0        |Entretenimento                |Novo Mercado     |0.73                |5.2            |Ruim            |152,904,000    |
+|JBSS3|JBS SA                                                  |0.44     |Alimentos - Carnes e Derivados|Novo Mercado     |0.85                |9.4            |Ótimo           |41,972,500,000 |
+|HYPE3|HYPERA PHARMA S/A                                       |0.99     |Medicamentos                  |Novo Mercado     |0.36                |6.9            |Regular         |11,388,400,000 |
+|PDGR3|PDG REALTY SA EMPREENDIMENTOS E PARTS                   |0        |Construção                    |Novo Mercado     |0.88                |7.1            |Bom             |-5,380,590,000 |
+|GEPA3|DUKE ENERGY INT,GERAÇÃO PARANAPANEMA SA                 |0.34     |Energia - Geração             |na               |0.98                |na             |na              |2,123,240,000  |
+|GEPA4|DUKE ENERGY INT,GERAÇÃO PARANAPANEMA SA                 |0.66     |Energia - Geração             |na               |0.98                |na             |na              |2,123,240,000  |
+|TRPL3|CTEEP                                                   |0.95     |Energia - Transmissão         |Nível 1          |0.91                |na             |na              |17,977,200,000 |
+|TRPL4|CTEEP                                                   |0.33     |Energia - Transmissão         |Nível 1          |0.91                |na             |na              |17,977,200,000 |
+|TPIS3|TPI                                                     |0.61     |Exploração de Rodovias        |Novo Mercado     |0.95                |na             |na              |858,180,000    |
+|EQTL3|EQUATORIAL ENERGIA S/A                                  |0.03     |Energia - Distribuição        |Novo Mercado     |0.05                |6.9            |Regular         |19,573,900,000 |
+|DTCY3|DTCOM                                                   |0        |Educação                      |Tradicional      |0.58                |na             |na              |-1,655,000     |
+|RECV3|na                                                      |0.56     |na                            |na               |0.79                |-1             |na              |4,429,210,000  |
+|LIGT3|LIGHT S.A. - EM RECUPERAÇÃO JUDICIAL                    |0        |Energia - Distribuição        |Novo Mercado     |0.32                |6.2            |Regular         |3,048,560,000  |
+|ENMT3|ENERGISA MATO GROSSO - DISTRIBUIDORA DE ENERGIA S.A.    |0.7      |Energia - Distribuição        |Tradicional      |0.93                |5.1            |Ruim            |3,549,160,000  |
+|ENMT4|ENERGISA MATO GROSSO - DISTRIBUIDORA DE ENERGIA S.A.    |0        |Energia - Distribuição        |Tradicional      |0.93                |5.1            |Ruim            |3,549,160,000  |
+|CLSA3|na                                                      |0        |na                            |na               |0.43                |-1             |na              |716,090,000    |
+|BRAP3|BRADESPAR S/A                                           |0.53     |Holding                       |na               |0                   |na             |na              |8,023,720,000  |
+|BRAP4|BRADESPAR S/A                                           |0.79     |Holding                       |na               |0                   |na             |na              |8,023,720,000  |
+|MRFG3|MARFRIG                                                 |0        |Alimentos - Carnes e Derivados|na               |0.66                |8.7            |Ótimo           |6,129,530,000  |
+|ATMP3|ATMA PARTICIPACOES S.A. EM RECUPERACAO JUDICIAL         |0        |Holding                       |Tradicional      |0.91                |0              |Não Recomendada |-16,770,000    |
+|ECOR3|ECORODOVIAS INFRAESTRUTURA E LOGÍSTICA S.A.             |0.94     |Exploração de Rodovias        |na               |0.26                |na             |na              |2,755,580,000  |
+|ENEV3|ENEVA SA                                                |0        |Energia - Geração             |Novo Mercado     |0.9                 |na             |na              |12,943,500,000 |
+|BIOM3|BIOMM SA                                                |0        |Medicamentos                  |Bovespa Mais     |0.78                |na             |na              |99,012,000     |
+|FRIO3|METALFRIO SOLUTIONS S/A                                 |0        |Máquinas e Equipamentos       |na               |0.06                |7.6            |Bom             |-439,858,000   |
+|EQPA3|EQUATORIAL PARÁ DISTRIBUIDORA DE ENERGIA S.A.           |0.87     |Energia - Distribuição        |Tradicional      |0.91                |6.9            |Regular         |4,452,730,000  |
+|EQPA5|EQUATORIAL PARÁ DISTRIBUIDORA DE ENERGIA S.A.           |0.98     |Energia - Distribuição        |Tradicional      |0.91                |6.9            |Regular         |4,452,730,000  |
+|BAZA3|BANCO DA AMAZONIA S.A.                                  |0.23     |Bancos                        |Tradicional      |0.96                |na             |na              |5,811,580,000  |
+|BPAR3|BANPARÁ S.A.                                            |0        |Bancos                        |Tradicional      |0.42                |7.2            |Bom             |1,843,240,000  |
+|SEER3|na                                                      |0        |Educação                      |Novo Mercado     |0.2                 |5.6            |Ruim            |1,203,790,000  |
+|HAPV3|HAPVIDA PARTICIPAÇÕES E INVESTIMENTOS S.A.              |0        |Seguros                       |Novo Mercado     |0.89                |7.1            |Bom             |49,114,400,000 |
+|ALOS3|ALLOS S.A.                                              |0.2      |Shoppings                     |Novo Mercado     |0.27                |0              |Não Recomendada |14,703,000,000 |
+|LVTC3|na                                                      |0.36     |na                            |na               |0.31                |-1             |na              |644,883,000    |
+|RDOR3|REDE D'OR SÃO LUIZ S.A.                                 |0.4      |Serviços Hospitalares         |Novo Mercado     |0.75                |6.8            |Regular         |22,773,400,000 |
+|ASAI3|SENDAS DISTRIBUIDORA S.A.                               |0.38     |Varejo - Alimentício          |Novo Mercado     |0.77                |7.5            |Bom             |4,325,000,000  |
+|GOLL4|GOL LINHAS AEREAS INTELIGENTES SA                       |0        |Aéreo                         |Nível 2          |0.09                |7              |Bom             |-22,029,000,000|
+|PGMN3|na                                                      |0        |na                            |na               |0.27                |-1             |na              |2,557,500,000  |
+|COCE3|CIA ENERG CEARA - COELCE                                |0.62     |Energia - Distribuição        |Tradicional      |0.87                |0              |Não Recomendada |4,242,320,000  |
+|COCE5|CIA ENERG CEARA - COELCE                                |0.74     |Energia - Distribuição        |Tradicional      |0.87                |0              |Não Recomendada |4,242,320,000  |
+|MDIA3|M DIAS BRANCO SA IND E COM DE ALIMENTOS                 |0.65     |Alimentos - Variados          |Novo Mercado     |0.72                |7.3            |Bom             |7,295,590,000  |
+|BNBR3|BANCO DO NORDESTE                                       |0.3      |Bancos                        |Tradicional      |0.79                |7.3            |Bom             |10,267,000,000 |
+|SIMH3|SIMPAR S.A.                                             |0.27     |Holding                       |Novo Mercado     |0.38                |na             |na              |3,498,440,000  |
+|ABEV3|AMBEV S.A                                               |0.65     |Bebidas                       |Tradicional      |0.23                |7.7            |Bom             |90,254,900,000 |
+|SMFT3|SMARTFIT ESCOLA DE GINÁSTICA E DANÇA S.A.               |0.86     |Academias                     |Novo Mercado     |0.81                |8.1            |Ótimo           |4,713,060,000  |
+|AGRO3|BRASILAGRO CIA BRAS DE PROP AGRICOLAS                   |0.8      |Agronegócio                   |Novo Mercado     |0.85                |na             |na              |1,976,040,000  |
+|EMBR3|EMBRAER                                                 |0        |Produção de Aeronaves         |Novo Mercado     |0.6                 |na             |na              |12,757,400,000 |
+|SGPS3|SPRINGS GLOBAL                                          |0        |Têxtil                        |na               |0.31                |na             |na              |165,504,000    |
+|MULT3|MULTIPLAN                                               |0.84     |Shoppings                     |Nível 2          |0.92                |6.2            |Regular         |6,933,920,000  |
+|FIEI3|CR2 EMPREENDIMENTOS IMOBILIÁRIOS S/A                    |0        |Construção                    |Tradicional      |0.98                |na             |na              |82,854,000     |
+|TAEE3|TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.           |0.29     |Energia - Transmissão         |Nível 2          |0.89                |na             |na              |6,652,330,000  |
+|TAEE4|TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.           |0.23     |Energia - Transmissão         |Nível 2          |0.89                |na             |na              |6,652,330,000  |
+|MTRE3|na                                                      |0.36     |Construção                    |Novo Mercado     |0.44                |7.5            |Bom             |976,846,000    |
+|TCSA3|TECNISA S/A                                             |0        |Construção                    |Novo Mercado     |0.88                |5.4            |Ruim            |591,429,000    |
+|LPSB3|LOPES                                                   |0.03     |Exploração de Imóveis         |Novo Mercado     |0                   |7.4            |Bom             |219,649,000    |
+|DESK3|na                                                      |0.15     |na                            |na               |0.75                |-1             |na              |1,260,890,000  |
+|JHSF3|JHSF                                                    |0.32     |Construção                    |Novo Mercado     |0.74                |na             |na              |5,040,500,000  |
+|EZTC3|EZ TEC EMPREEND. E PARTICIPAÇÕES S/A                    |0.37     |Construção                    |Novo Mercado     |0.57                |6.9            |Regular         |4,598,390,000  |
+|CSRN3|COSERN                                                  |0.35     |Energia - Distribuição        |Tradicional      |0.21                |8              |Ótimo           |1,546,000,000  |
+|CSRN5|COSERN                                                  |0.38     |Energia - Distribuição        |Tradicional      |0.21                |8              |Ótimo           |1,546,000,000  |
+|MRVE3|MRV ENGENHARIA                                          |0        |Construção                    |Novo Mercado     |0.85                |7              |Bom             |6,862,600,000  |
+|ALUP3|ALUPAR INVESTIMENTO S/A                                 |0.01     |Energia - Transmissão         |Nível 2          |0.66                |na             |na              |7,541,460,000  |
+|ALUP4|ALUPAR INVESTIMENTO S/A                                 |0.95     |Energia - Transmissão         |Nível 2          |0.66                |na             |na              |7,541,460,000  |
+|GUAR3|GUARARAPES CONFECÇÕES                                   |0        |Vestuário - Geral             |Novo Mercado     |0.42                |8.5            |Ótimo           |4,986,780,000  |
+|CEED3|CEEE-D                                                  |0        |Energia - Distribuição        |Tradicional      |0.62                |na             |na              |-2,965,540,000 |
+|CEED4|CEEE-D                                                  |0        |Energia - Distribuição        |Tradicional      |0.62                |na             |na              |-2,965,540,000 |
+|RNEW3|RENOVA ENERGIA S/A                                      |0        |Energia - Geração             |Nível 2          |0.88                |na             |na              |807,164,000    |
+|RNEW4|RENOVA ENERGIA S/A                                      |0        |Energia - Geração             |Nível 2          |0.88                |na             |na              |807,164,000    |
+|GPAR3|CELGPAR                                                 |0        |Energia - Distribuição        |Tradicional      |0.2                 |5.5            |Ruim            |727,046,000    |
+|NEXP3|NEXPE PARTICIPAÃiES S.A.                                |0        |Exploração de Imóveis         |Novo Mercado     |0.75                |na             |na              |-143,251,000   |
+|GSHP3|GENERAL SHOPPING BRASIL SA                              |0        |Shoppings                     |na               |0.39                |na             |na              |-840,571,000   |
+|CURY3|na                                                      |0.16     |Construção                    |Novo Mercado     |0.13                |7.7            |Bom             |923,179,000    |
+|SYNE3|SYN PROP & TECH S.A.                                    |0        |Shoppings                     |Novo Mercado     |0.16                |na             |na              |1,510,730,000  |
+|YDUQ3|ESTACIO PARTICIPAÇÕES SA                                |0.47     |Educação                      |Novo Mercado     |0.98                |5.6            |Ruim            |3,239,030,000  |
+|TRIS3|TRISUL                                                  |0.19     |Construção                    |Novo Mercado     |0.21                |6.8            |Regular         |1,332,140,000  |
+|LOGG3|LOG COMMERCIAL PROPERTIES E PARTICIPAÇÕES S.A.          |0        |Construção                    |Novo Mercado     |0.33                |na             |na              |3,729,940,000  |
+|BMOB3|BEMOBI MOBILE TECH S.A.                                 |0.11     |Programas e Serviços          |Novo Mercado     |0.14                |na             |na              |1,080,030,000  |
+|OSXB3|OSX BRASIL S.A.                                         |0        |Petróleo e Gás - E&P          |Novo Mercado     |0.86                |na             |na              |-6,229,240,000 |
+|OPCT3|OCEANPACT SERVIÇOS MARÍTIMOS S.A.                       |0        |Ambiental                     |Novo Mercado     |0.49                |na             |na              |794,548,000    |
+|GGPS3|na                                                      |0.41     |na                            |na               |0.41                |-1             |na              |2,948,660,000  |
+|ANIM3|na                                                      |0        |Educação                      |Novo Mercado     |0.61                |0              |Não Recomendada |2,551,290,000  |
+|TECN3|TECHNOS SA                                              |0        |Artigos de Luxo               |Novo Mercado     |0.7                 |7.8            |Bom             |380,137,000    |
+|AZUL4|AZUL S.A.                                               |0        |Aéreo                         |Nível 2          |0.69                |8.1            |Ótimo           |-21,286,100,000|
+|B3SA3|B3                                                      |0.43     |Bolsa de Valores              |Novo Mercado     |0.48                |9              |Ótimo           |20,233,800,000 |
+|NGRD3|na                                                      |0.34     |na                            |na               |0                   |-1             |na              |456,449,000    |
+|SOMA3|RBX RIO COMÉRCIO DE ROUPAS S.A.                         |0.43     |Vestuário - Geral             |Novo Mercado     |0.59                |8.7            |Ótimo           |7,637,750,000  |
+|AFLT3|AFLUENTE TRANSMISSÃO DE ENERGIA ELETRICA S/A            |0.55     |Energia - Transmissão         |Tradicional      |0.8                 |na             |na              |254,149,000    |
+|PRIO3|PETRO RIO S.A.                                          |0.17     |Petróleo e Gás - E&P          |Novo Mercado     |0.99                |na             |na              |12,901,100,000 |
+|CVCB3|CVC BRASIL OPERADORA E AGÊNCIA DE VIAGENS SA            |0        |Turismo                       |Novo Mercado     |0.33                |8.2            |Ótimo           |436,424,000    |
+|SOJA3|na                                                      |0.33     |na                            |na               |0.68                |-1             |na              |924,072,000    |
+|ORVR3|ORIZON VALORIZAÇÃO DE RESÍDUOS S.A.                     |0        |Ambiental                     |Novo Mercado     |0.55                |na             |na              |617,519,000    |
+|ENAT3|QGEP PARTICIPAÇÕES SA                                   |0.8      |Petróleo e Gás - E&P          |Novo Mercado     |0.25                |na             |na              |3,876,330,000  |
+|APER3|BR INSURANCE CORRETORA DE SEGUROS S.A.                  |0.71     |Seguros                       |Tradicional      |0.78                |9.2            |Ótimo           |477,848,000    |
+|QUAL3|QUALICORP CONSULTORIA E CORRETORA DE SEGUROS S.A.       |0.03     |Seguros                       |Novo Mercado     |0.88                |6.4            |Regular         |1,326,160,000  |
+|MDNE3|MOURA DUBEUX                                            |0        |Construção                    |na               |0.01                |na             |na              |1,306,870,000  |
+|RRRP3|na                                                      |0        |Petróleo e Gás - E&P          |Novo Mercado     |0.8                 |na             |na              |5,185,410,000  |
+|ONCO3|na                                                      |0        |na                            |na               |0.83                |-1             |na              |2,215,000,000  |
+|DMVF3|na                                                      |0        |Varejo - Farmacêutico         |Novo Mercado     |0.95                |5.1            |Ruim            |861,621,000    |
+|VVEO3|na                                                      |0        |na                            |na               |0.59                |-1             |na              |3,129,440,000  |
+|AERI3|na                                                      |0        |Máquinas e Equipamentos       |Novo Mercado     |0.41                |na             |na              |815,079,000    |
+|AMBP3|AMBIPAR PARTICIPAÇÕES E EMPREENDIMENTOS S.A.            |0.66     |Ambiental                     |Novo Mercado     |0.72                |na             |na              |989,635,000    |
+|HBSA3|HIDROVIAS DO BRASIL S.A.                                |0        |Logística e Hidroviário       |Novo Mercado     |0.94                |na             |na              |1,585,400,000  |
+|BGIP3|BANESE                                                  |0.18     |Bancos                        |Tradicional      |0.05                |7.7            |Bom             |616,709,000    |
+|BGIP4|BANESE                                                  |0.69     |Bancos                        |Tradicional      |0.05                |7.7            |Bom             |616,709,000    |
+|SBFG3|GRUPO SBF S.A.                                          |0.12     |Vestuário - Geral             |Novo Mercado     |0.71                |7.5            |Bom             |2,461,640,000  |
+|KRSA3|na                                                      |0        |na                            |na               |0.13                |-1             |na              |1,013,980,000  |
+|ZAMP3|ZAMP S.A.                                               |0        |Restaurantes                  |Tradicional      |0.28                |7.5            |Bom             |1,331,470,000  |
+|CASH3|MELIUZ S.A.                                             |0        |Programas e Serviços          |Novo Mercado     |0.2                 |6              |Regular         |780,734,000    |
+|NINJ3|na                                                      |0        |na                            |na               |0.33                |-1             |na              |285,195,000    |
+|WEST3|WESTWING COMÉRCIO VAREJISTA S.A.                        |0        |Móveis                        |na               |0.69                |8.4            |Ótimo           |272,425,000    |
+|HBRE3|na                                                      |0        |Construção                    |Novo Mercado     |0.16                |na             |na              |1,908,600,000  |
+|CRPG3|MILLENNIUM INORGANIC CHEMICALS DO BRASIL                |0.8      |Químicos                      |Tradicional      |0.55                |na             |na              |692,919,000    |
+|CRPG5|MILLENNIUM INORGANIC CHEMICALS DO BRASIL                |0.56     |Químicos                      |Tradicional      |0.55                |na             |na              |692,919,000    |
+|CEEB3|COELBA                                                  |0.39     |Energia - Distribuição        |Tradicional      |0.55                |7.3            |Bom             |6,437,000,000  |
+|CEEB5|COELBA                                                  |0.36     |Energia - Distribuição        |Tradicional      |0.55                |7.3            |Bom             |6,437,000,000  |
+|FESA3|FERBASA                                                 |0.02     |Siderurgia                    |Nível 1          |0.39                |na             |na              |3,248,510,000  |
+|FESA4|FERBASA                                                 |0.37     |Siderurgia                    |Nível 1          |0.39                |na             |na              |3,248,510,000  |
+|SUZB3|SUZANO PAPEL E CELULOSE SA                              |0.26     |Papel e Celulose              |Novo Mercado     |0.99                |8.1            |Ótimo           |41,762,300,000 |
+|ARZZ3|AREZZO INDÚSTRIA E COMERCIO S/A                         |0.29     |Vestuário - Calçados          |na               |0.49                |6.4            |Regular         |2,891,400,000  |
+|DIRR3|DIRECIONAL ENGENHARIA SA                                |0.14     |Construção                    |Novo Mercado     |0.97                |6.6            |Regular         |1,934,470,000  |
+|RENT3|LOCALIZA RENT A CAR                                     |0.83     |Locação - Veículos            |Novo Mercado     |0.96                |8.7            |Ótimo           |25,191,500,000 |
+|MATD3|HOSPITAL MATER DEI S.A.                                 |0.99     |Serviços Hospitalares         |Novo Mercado     |0.24                |7              |Bom             |1,662,270,000  |
+|AVLL3|na                                                      |0        |na                            |na               |0.55                |-1             |na              |-636,418,000   |
+|ENJU3|na                                                      |0        |Programas e Serviços          |Novo Mercado     |0.24                |8              |Ótimo           |353,986,000    |
+|CMIG3|CEMIG                                                   |0.58     |Energia - Distribuição        |Nível 1          |0.86                |5.3            |Ruim            |24,427,800,000 |
+|CMIG4|CEMIG                                                   |0.43     |Energia - Distribuição        |Nível 1          |0.86                |5.3            |Ruim            |24,427,800,000 |
+|RPAD3|ALFA HOLDINGS                                           |0        |Holding                       |Tradicional      |0.36                |7.8            |Bom             |1,082,830,000  |
+|RPAD5|ALFA HOLDINGS                                           |0.97     |Holding                       |Tradicional      |0.36                |7.8            |Bom             |1,082,830,000  |
+|CRIV3|ALFA FINANCEIRA                                         |0        |Financeira                    |Tradicional      |0.1                 |7.8            |Bom             |1,058,750,000  |
+|CRIV4|ALFA FINANCEIRA                                         |0.74     |Financeira                    |Tradicional      |0.1                 |7.8            |Bom             |1,058,750,000  |
+|BMEB3|BANCO MERCANTIL DO BRASIL S/A                           |0.92     |Bancos                        |Nível 1          |0.7                 |7.3            |Bom             |1,553,050,000  |
+|BMEB4|BANCO MERCANTIL DO BRASIL S/A                           |0.26     |Bancos                        |Nível 1          |0.7                 |7.3            |Bom             |1,553,050,000  |
+|BRGE3|CONSORCIO ALFA                                          |0        |Seguros                       |Tradicional      |0.61                |7.8            |Bom             |1,324,180,000  |
+|BRGE5|CONSORCIO ALFA                                          |0        |Seguros                       |Tradicional      |0.61                |7.8            |Bom             |1,324,180,000  |
+|CEDO3|CIA. DE FIAÇÃO E TECIDOS CEDRO CACHOEIRA                |0        |Têxtil                        |Nível 1          |0.19                |na             |na              |185,170,000    |
+|CEDO4|CIA. DE FIAÇÃO E TECIDOS CEDRO CACHOEIRA                |0        |Têxtil                        |Nível 1          |0.19                |na             |na              |185,170,000    |
+|CSMG3|COPASA MG                                               |0.49     |Saneamento                    |Novo Mercado     |0.53                |6.1            |Regular         |7,891,110,000  |
+|MEAL3|INTERNATIONAL MEAL COMAPANY ALIMENTAÇÃO S.A.            |0        |Restaurantes                  |Novo Mercado     |0.44                |4.7            |Não Recomendada |1,112,260,000  |
+|BBSE3|na                                                      |0.88     |Seguros                       |Novo Mercado     |0                   |7.3            |Bom             |9,816,480,000  |
+|DOTZ3|na                                                      |0        |na                            |na               |0.03                |-1             |na              |-222,238,000   |
+|PETZ3|PET CENTER COMÉRCIO E PARTICIPAÇÕES S.A.                |0.48     |Pet shop                      |Novo Mercado     |0.01                |7.6            |Bom             |1,801,540,000  |
+|PRNR3|PRINER SERVIÇOS INDUSTRIAIS S.A.                        |0        |Serviços Diversos             |Novo Mercado     |0.3                 |na             |na              |227,184,000    |
+|BRIT3|na                                                      |0.1      |na                            |na               |0.38                |-1             |na              |1,480,810,000  |
+|ALLD3|na                                                      |0.35     |na                            |na               |0.44                |-1             |na              |1,552,720,000  |
+|OFSA3|na                                                      |0.23     |Medicamentos                  |Novo Mercado     |0.27                |8.9            |Ótimo           |669,547,000    |
+|AGXY3|na                                                      |0.12     |na                            |na               |0.89                |-1             |na              |1,024,290,000  |
+|MOVI3|MOVIDA PARTICIPAÇÕES S.A.                               |0.5      |Locação - Veículos            |Novo Mercado     |0.47                |7.2            |Bom             |3,027,690,000  |
+|FHER3|FERTILIZANTES HERINGER SA                               |0        |Fertilizantes                 |na               |0.83                |na             |na              |38,987,000     |
+|CXSE3|na                                                      |0.27     |na                            |na               |0                   |-1             |na              |12,760,400,000 |
+|VAMO3|VAMOS LOCAÇÃO DE CAMINHÕES, MÁQUINAS E EQUIPAMENTOS S.A.|0.25     |Locação - Veículos            |na               |0.64                |na             |na              |4,878,780,000  |
+|PLPL3|na                                                      |0.59     |Construção                    |Novo Mercado     |0.36                |8.1            |Ótimo           |597,321,000    |
+|GMAT3|na                                                      |0        |Varejo - Alimentício          |Novo Mercado     |0.51                |7.3            |Bom             |8,287,380,000  |
+|TRAD3|na                                                      |0        |na                            |na               |0.7                 |-1             |na              |477,113,000    |
+|LAVV3|na                                                      |0.69     |Construção                    |Novo Mercado     |0.19                |na             |na              |1,261,230,000  |
+|ESPA3|MPM CORPÓREOS S.A.                                      |0        |Serviços Diversos             |Novo Mercado     |0.84                |8.8            |Ótimo           |877,564,000    |
+|MILS3|MILLS ESTRUTURAS E SERVIÇOS DE ENGENHARIA S/A           |0.47     |Locação - Máquinas e Equip.   |Novo Mercado     |0.59                |na             |na              |1,390,720,000  |
+|BEES3|BANESTES S/A                                            |0.57     |Bancos                        |Tradicional      |0.13                |6              |Regular         |2,178,700,000  |
+|BEES4|BANESTES S/A                                            |0.22     |Bancos                        |Tradicional      |0.13                |6              |Regular         |2,178,700,000  |
+|ABCB4|BANCO ABC BRASIL S/A                                    |0.55     |Bancos                        |Nível 2          |0.86                |7.9            |Bom             |5,871,730,000  |
+|AURE3|na                                                      |0.27     |na                            |na               |0.48                |-1             |na              |12,369,000,000 |
+|SCAR3|SÃO CARLOS EMPREEND.E PARTICIPAÇÕES S.A.                        |0        |Exploração de Imóveis         |Novo Mercado     |0.32                |na             |na              |1,525,820,000  |
+|BPAC3|BANCO UBS PACTUAL S/A                                           |0.44     |Bancos                        |Nível 2          |0.37                |8.3            |Ótimo           |49,381,800,000 |
+|BPAC5|BANCO UBS PACTUAL S/A                                           |0.79     |Bancos                        |Nível 2          |0.37                |8.3            |Ótimo           |49,381,800,000 |
+|HAGA3|HAGA                                                            |0        |Produtos para Construção Civil|Tradicional      |0.46                |na             |na              |-55,516,000    |
+|HAGA4|HAGA                                                            |0        |Produtos para Construção Civil|Tradicional      |0.46                |na             |na              |-55,516,000    |
+|MBLY3|MOBLY S.A.                                                      |0        |Móveis                        |Novo Mercado     |0.26                |8.2            |Ótimo           |491,793,000    |
+|NTCO3|NATURA & CO HOLDING S.A.                                        |0        |Produtos de Uso Pessoal       |Novo Mercado     |0.86                |7.5            |Bom             |28,029,100,000 |
+|PETR3|PETROBRAS                                                       |0.13     |Petróleo e Gás - Refino       |Nível 2          |0.27                |5.4            |Ruim            |386,007,000,000|
+|PETR4|PETROBRAS                                                       |0.68     |Petróleo e Gás - Refino       |Nível 2          |0.27                |5.4            |Ruim            |386,007,000,000|
+|JFEN3|JOÃO FORTES ENGENHARIA S.A.                                     |0        |Construção                    |na               |0.41                |na             |na              |-683,911,000   |
+|MERC3|CREDITAQUI FINANCEIRA S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO|0        |Financeira                    |Tradicional      |0.06                |7.3            |Bom             |241,486,000    |
+|MERC4|CREDITAQUI FINANCEIRA S.A. CRÉDITO, FINANCIAMENTO E INVESTIMENTO|0.09     |Financeira                    |Tradicional      |0.06                |7.3            |Bom             |241,486,000    |
+|BHIA3|PONTO FRIO                                                      |0        |Varejo - Geral                |Novo Mercado     |0.63                |7.9            |Bom             |4,434,000,000  |
+|CSNA3|CSN                                                             |0.97     |Siderurgia                    |Tradicional      |0.89                |na             |na              |17,762,500,000 |
+|CBEE3|AMPLA                                                           |0        |Energia - Distribuição        |Tradicional      |0.51                |na             |na              |5,368,910,000  |
+|MOAR3|MONTEIRO ARANHA                                                 |0.74     |Holding                       |Tradicional      |0.25                |na             |na              |1,524,140,000  |
+|VLID3|AMERICAN BANKNOTE COMPANY                                       |0.88     |Documentos de Segurança       |Novo Mercado     |0.44                |7.8            |Bom             |1,358,760,000  |
+|PORT3|na                                                              |0.82     |na                            |na               |0.64                |-1             |na              |2,298,890,000  |
+|HOOT4|HOTEIS OTHON S.A.                                               |0        |Hotelaria                     |na               |0.89                |na             |na              |-208,906,000   |
+|WLMM3|WLM                                                             |0.36     |Automotivo                    |Tradicional      |0.65                |na             |na              |669,898,000    |
+|WLMM4|WLM                                                             |0.13     |Automotivo                    |Tradicional      |0.65                |na             |na              |669,898,000    |
+|UGPA3|ULTRAPAR PARTICIPAÇÕES SA                                       |0.2      |Petróleo e Gás - Distribuição |Novo Mercado     |0.99                |8.5            |Ótimo           |12,701,500,000 |
+|IRBR3|na                                                              |0        |Seguros                       |na               |0                   |0              |Não Recomendada |4,169,510,000  |
+|SOND3|SONDOTECNICA S/A.                                               |0.04     |Consultoria                   |Tradicional      |0.7                 |na             |na              |57,540,000     |
+|SOND5|SONDOTECNICA S/A.                                               |0.29     |Consultoria                   |Tradicional      |0.7                 |na             |na              |57,540,000     |
+|RPMG3|REFINARIA DE PETRÓLEOS DE MANGUINHOS S.A                        |0        |Petróleo e Gás - Refino       |Tradicional      |0.32                |na             |na              |-5,058,390,000 |
+|RAIZ4|na                                                              |0.89     |na                            |na               |0.36                |-1             |na              |22,415,900,000 |
+|TKNO4|TEKNO                                                           |0.25     |Siderurgia                    |Tradicional      |0.09                |na             |na              |280,762,000    |
+|VALE3|VALE                                                            |0.25     |Mineração                     |Novo Mercado     |0.73                |7.1            |Bom             |190,172,000,000|
+|GGBR3|GERDAU S.A.                                                     |0.25     |Siderurgia                    |Nível 1          |0.96                |na             |na              |50,600,900,000 |
+|GGBR4|GERDAU S.A.                                                     |0.72     |Siderurgia                    |Nível 1          |0.96                |na             |na              |50,600,900,000 |
+|VIVA3|VIVARA PARTICIPAÇÕES S.A.                                       |0.16     |Artigos de Luxo               |Novo Mercado     |0.26                |6.9            |Regular         |1,876,600,000  |
+|CEGR3|CEG                                                             |0.23     |Gás                           |Tradicional      |0.88                |7.3            |Bom             |1,401,590,000  |
+|UNIP3|UNIPAR CARBOCLORO S.A.                                          |0        |Químicos                      |Tradicional      |0.79                |na             |na              |2,808,340,000  |
+|UNIP5|UNIPAR CARBOCLORO S.A.                                          |0.89     |Químicos                      |Tradicional      |0.79                |na             |na              |2,808,340,000  |
+|BMIN3|BANCO MERCANTIL DE INVESTIMENTOS SA                             |0.35     |Bancos                        |Tradicional      |0.61                |na             |na              |132,658,000    |
+|BMIN4|BANCO MERCANTIL DE INVESTIMENTOS SA                             |0.36     |Bancos                        |Tradicional      |0.61                |na             |na              |132,658,000    |
+|VBBR3|VIBRA ENERGIA S/A                                               |0.49     |Petróleo e Gás - Distribuição |na               |0.25                |5.4            |Ruim            |13,555,000,000 |
+|AESB3|na                                                              |0        |na                            |na               |0.22                |-1             |na              |4,469,480,000  |
+|IFCM3|na                                                              |0        |na                            |na               |0.07                |-1             |na              |1,366,400,000  |
+|LAND3|na                                                              |0.21     |na                            |na               |0.92                |-1             |na              |709,172,000    |
+|BRKM3|BRASKEM                                                         |0        |Químicos                      |Nível 1          |0.67                |na             |na              |5,022,600,000  |
+|BRKM5|BRASKEM                                                         |0        |Químicos                      |Nível 1          |0.67                |na             |na              |5,022,600,000  |
+|LOGN3|LOG-IN LOGISTICA INTERMODAL SA                                  |0        |Logística e Hidroviário       |Novo Mercado     |0.11                |na             |na              |978,996,000    |
+|WIZC3|WIZ CO PARTICIPAÇÕES E CORRETAGEM DE SEGUROS S.A.               |0.23     |Seguros                       |Novo Mercado     |0.69                |5.3            |Ruim            |459,254,000    |
+|EPAR3|EMBPAR PARTICIPAÇÕES S/A                                        |0.66     |Holding                       |Tradicional      |0.24                |na             |na              |123,860,000    |
+|SRNA3|na                                                              |0        |na                            |na               |0.25                |-1             |na              |5,079,960,000  |
+|AALR3|ALLIANÇA SAÚDE E PARTICIPAÇÕES S.A.                             |0        |Medicina Diagnóstica          |na               |0.54                |na             |na              |1,015,110,000  |
+|EVEN3|EVEN                                                            |0.83     |Construção                    |Novo Mercado     |0.7                 |8.5            |Ótimo           |1,937,970,000  |
+|SBSP3|SABESP                                                          |0.62     |Saneamento                    |Novo Mercado     |0.89                |6.1            |Regular         |29,593,900,000 |
+|CEAB3|na                                                              |0        |na                            |na               |0.69                |-1             |na              |2,842,690,000  |
+|VITT3|na                                                              |0.85     |na                            |na               |0.56                |-1             |na              |618,428,000    |
+|PFRM3|PROFARMA                                                        |0.61     |Varejo - Farmacêutico         |Novo Mercado     |0.75                |na             |na              |1,261,610,000  |
+|BAHI3|BAHEMA                                                          |0        |Educação                      |Bovespa Mais     |0.05                |na             |na              |43,092,000     |
+|PCAR3|PÃO DE AÇÚCAR                                                   |0        |Varejo - Alimentício          |Novo Mercado     |0.47                |6.8            |Regular         |5,016,000,000  |
+|MGLU3|MAGAZINE LUIZA SA                                               |0        |Varejo - Geral                |Novo Mercado     |0.5                 |8.3            |Ótimo           |9,532,650,000  |
+|HBOR3|HELBOR                                                          |0.33     |Construção                    |Novo Mercado     |0.96                |8.7            |Ótimo           |1,394,330,000  |
+|VSTE3|LE LIS BLANC DEUX                                               |0.68     |Vestuário - Geral             |Novo Mercado     |0.34                |8.3            |Ótimo           |1,028,360,000  |
+|BOBR3|BOMBRIL SA                                                      |0        |Produtos de Limpeza           |na               |0.52                |7.2            |Bom             |-71,947,000    |
+|BOBR4|BOMBRIL SA                                                      |0        |Produtos de Limpeza           |na               |0.52                |7.2            |Bom             |-71,947,000    |
+|CSAN3|COSAN SA INDUSTRIA E COMERCIO                                   |0.35     |Holding                       |Novo Mercado     |0.1                 |na             |na              |18,481,500,000 |
+|VULC3|VULCABRAS S/A.                                                  |0.8      |Vestuário - Calçados          |Novo Mercado     |0.13                |3.8            |Não Recomendada |1,985,350,000  |
+|NUTR3|NUTRIPLANT                                                      |0        |Fertilizantes                 |Bovespa Mais     |0.78                |na             |na              |32,895,000     |
+|SMTO3|SÃO MARTINHO SA                                                 |0.77     |Açúcar e Álcool               |Novo Mercado     |0.68                |na             |na              |6,479,560,000  |
+|PLAS3|PLASCAR PARTICIPAÇÕES INDUSTRIAIS S.A                           |0        |Automotivo                    |Tradicional      |0.08                |na             |na              |-357,440,000   |
+|JSLG3|JSL S.A.                                                        |0.99     |Logística e Rodoviário        |Novo Mercado     |0.18                |na             |na              |1,683,290,000  |
+|TOTS3|TOTVS S.A                                                       |0.47     |Software                      |Novo Mercado     |0.96                |7.8            |Bom             |4,720,570,000  |
+|EUCA3|EUCATEX                                                         |0.2      |Madeira                       |Nível 1          |0.67                |8.1            |Ótimo           |2,205,650,000  |
+|EUCA4|EUCATEX                                                         |0.68     |Madeira                       |Nível 1          |0.67                |8.1            |Ótimo           |2,205,650,000  |
+|ROMI3|ROMI S.A.                                                       |0.62     |Máquinas e Equipamentos       |Novo Mercado     |0.45                |na             |na              |1,169,510,000  |
+|BMKS3|MONARK                                                          |0.83     |Bicicletas                    |na               |0.34                |na             |na              |204,650,000    |
+|ODPV3|ODONTOPREV S/A                                                  |0.85     |Seguros                       |Novo Mercado     |0.92                |7.2            |Bom             |1,467,850,000  |
+|BLAU3|na                                                              |0.57     |na                            |na               |0.37                |-1             |na              |1,974,820,000  |
+|WHRL3|WHIRLPOOL S.A                                                   |0.11     |Eletrodomésticos              |Tradicional      |0.98                |8.2            |Ótimo           |2,560,310,000  |
+|WHRL4|WHIRLPOOL S.A                                                   |0.18     |Eletrodomésticos              |Tradicional      |0.98                |8.2            |Ótimo           |2,560,310,000  |
+|BPAN4|BANCO PAN SA                                                    |0.47     |Bancos                        |Nível 1          |0.11                |7.6            |Bom             |8,107,320,000  |
+|TFCO4|na                                                              |0.25     |Vestuário - Geral             |Nível 2          |0.49                |6.4            |Regular         |390,905,000    |
+|MLAS3|na                                                              |0        |na                            |na               |0.77                |-1             |na              |3,542,230,000  |
+|PMAM3|PARANAPANEMA S.A.                                               |0        |Siderurgia                    |na               |0                   |na             |na              |-4,007,930,000 |
+|LEVE3|MAHLE METAL LEVE                                                |0.55     |Automotivo                    |na               |0.5                 |na             |na              |1,568,530,000  |
+|ALPK3|ALLPARK EMPREENDIMENTOS, PARTICIPAÇÕES E SERVIÇOS S.A.          |0        |Estacionamento                |Novo Mercado     |0.83                |8.1            |Ótimo           |380,467,000    |
+|IGTI3|IGUATEMI S.A.                                                   |0.06     |Shoppings                     |Nível 1          |0.09                |5.5            |Ruim            |4,153,350,000  |
+|MSPA3|na                                                              |0.12     |na                            |na               |0.88                |-1             |na              |834,081,000    |
+|MSPA4|na                                                              |0.15     |na                            |na               |0.88                |-1             |na              |834,081,000    |
+|BBDC4|BANCO BRADESCO S.A.                                             |0.19     |Bancos                        |Nível 1          |0.28                |6.3            |Regular         |161,182,000,000|
+|BBDC3|BANCO BRADESCO S.A.                                             |0.13     |Bancos                        |Nível 1          |0.28                |6.3            |Regular         |161,182,000,000|
+|BRIV3|BANCO ALFA DE INVESTIMENTO S.A.                                 |0        |Bancos                        |Tradicional      |0.72                |7.8            |Bom             |1,671,490,000  |
+|BRIV4|BANCO ALFA DE INVESTIMENTO S.A.                                 |0.89     |Bancos                        |Tradicional      |0.72                |7.8            |Bom             |1,671,490,000  |
+|FLRY3|FLEURY SA                                                       |0.73     |Medicina Diagnóstica          |Novo Mercado     |0.09                |7.9            |Bom             |5,177,130,000  |
+|BDLL3|BARDELLA                                                        |0        |Siderurgia                    |Tradicional      |0.96                |na             |na              |-155,603,000   |
+|BDLL4|BARDELLA                                                        |0        |Siderurgia                    |Tradicional      |0.96                |na             |na              |-155,603,000   |
+|ITUB3|ITAÚ UNIBANCO                                                   |0.24     |Bancos                        |Nível 1          |0.81                |7.1            |Bom             |182,505,000,000|
+|ITUB4|ITAÚ UNIBANCO                                                   |0.61     |Bancos                        |Nível 1          |0.81                |7.1            |Bom             |182,505,000,000|
+|NORD3|NORDON INDS METALURGICAS SA                                     |0        |Máquinas e Equipamentos       |Tradicional      |0.25                |na             |na              |-156,430,000   |
+|USIM3|USIMINAS                                                        |0.32     |Siderurgia                    |Nível 1          |0.31                |na             |na              |23,855,600,000 |
+|USIM5|USIMINAS                                                        |0.51     |Siderurgia                    |Nível 1          |0.31                |na             |na              |23,855,600,000 |
+|CALI3|CAL S/A                                                         |0.55     |Construção                    |na               |0                   |na             |na              |32,123,000     |
+|MGEL3|MANGELS                                                         |0        |Siderurgia                    |Tradicional      |0.62                |na             |na              |23,562,000     |
+|MGEL4|MANGELS                                                         |0        |Siderurgia                    |Tradicional      |0.62                |na             |na              |23,562,000     |
+|RSID3|ROSSI RESIDENCIAL S.A. - EM RECUPERAÇÃO JUDICIAL                |0        |Construção                    |na               |0.52                |na             |na              |-1,248,330,000 |
+|ALPA3|ALPARGATAS                                                      |0        |Vestuário - Calçados          |Nível 1          |0.32                |7.9            |Bom             |3,726,780,000  |
+|ALPA4|ALPARGATAS                                                      |0        |Vestuário - Calçados          |Nível 1          |0.32                |7.9            |Bom             |3,726,780,000  |
+|CAMB3|PENALTY                                                         |0.74     |Vestuário - Calçados          |Tradicional      |0.07                |6.3            |Regular         |219,208,000    |
+|ETER3|ETERNIT                                                         |0.98     |Produtos para Construção Civil|Novo Mercado     |0.19                |3.9            |Não Recomendada |710,421,000    |
+|MYPK3|IOCHPE-MAXION                                                   |0.62     |Automotivo                    |na               |0.94                |na             |na              |3,834,280,000  |
+|BMGB4|BANCO BMG S/A                                                   |0.94     |Bancos                        |Nível 1          |0.07                |8.1            |Ótimo           |3,925,170,000  |
+|AMAR3|MARISA LOJAS SA                                                 |0        |Vestuário - Geral             |na               |0.34                |7.7            |Bom             |107,804,000    |
+|AZEV3|AZEVEDO & TRAVASSOS                                             |0        |Construção                    |Tradicional      |0.92                |na             |na              |140,013,000    |
+|AZEV4|AZEVEDO & TRAVASSOS                                             |0        |Construção                    |Tradicional      |0.92                |na             |na              |140,013,000    |
+|BALM3|BAUMER                                                          |0.58     |Produtos Diversos             |Tradicional      |0.82                |na             |na              |146,999,000    |
+|BALM4|BAUMER                                                          |0.61     |Produtos Diversos             |Tradicional      |0.82                |na             |na              |146,999,000    |
+|CBAV3|na                                                              |0.69     |na                            |na               |0.29                |-1             |na              |4,784,200,000  |
+|ITSA3|ITAÚSA                                                          |0.29     |Holding                       |Nível 1          |0.42                |7.5            |Bom             |79,738,000,000 |
+|ITSA4|ITAÚSA                                                          |0.3      |Holding                       |Nível 1          |0.42                |7.5            |Bom             |79,738,000,000 |
+|REDE3|REDE ENERGIA PARTICIPAÇÕES S.A.                                 |0.35     |Energia - Distribuição        |Tradicional      |0.85                |na             |na              |5,841,410,000  |
+|RADL3|DROGASIL SA                                                     |0.2      |Varejo - Farmacêutico         |na               |0.62                |8.4            |Ótimo           |5,721,820,000  |
+|CGAS3|COMPANHIA DE GÁS DE SÃO PAULO - COMGÁS                          |0.86     |Gás                           |Tradicional      |0.06                |7.3            |Bom             |444,316,000    |
+|CGAS5|COMPANHIA DE GÁS DE SÃO PAULO - COMGÁS                          |0.04     |Gás                           |Tradicional      |0.06                |7.3            |Bom             |444,316,000    |
+|AHEB3|SÃO PAULO TURISMO S. A.                                         |0        |Turismo                       |Tradicional      |0.22                |na             |na              |16,700,000     |
+|AHEB5|SÃO PAULO TURISMO S. A.                                         |0        |Turismo                       |Tradicional      |0.22                |na             |na              |16,700,000     |
+|PINE3|BANCO PINE S/A                                                  |0        |Bancos                        |na               |0                   |5.9            |Ruim            |984,479,000    |
+|PINE4|BANCO PINE S/A                                                  |0.68     |Bancos                        |na               |0                   |5.9            |Ruim            |984,479,000    |
+|CSED3|CRUZEIRO DO SUL EDUCACIONAL S.A.                                |0        |Educação                      |Novo Mercado     |0.89                |6.7            |Regular         |1,439,560,000  |
+|CAML3|CAMIL ALIMENTOS S/A                                             |0.37     |Alimentos - Variados          |Novo Mercado     |0.13                |9.4            |Ótimo           |3,038,400,000  |
+|RDNI3|RODOBENS NEGOCIOS IMOBILIARIOS SA                               |0.29     |Construção                    |Novo Mercado     |0.9                 |6.8            |Regular         |581,354,000    |
+|VIVR3|VIVER                                                           |0        |Construção                    |na               |0.88                |na             |na              |19,987,000     |
+|BEEF3|MINERVA S/A                                                     |0.68     |Alimentos - Carnes e Derivados|Novo Mercado     |0.36                |9.1            |Ótimo           |627,948,000    |
+|TEND3|CONSTRUTORA TENDA S/A                                           |0        |Construção                    |Novo Mercado     |0.13                |7.2            |Bom             |895,290,000    |
+|CYRE3|CYRELA BRAZIL REALTY S.A.                                       |0.74     |Construção                    |Novo Mercado     |0.18                |7.5            |Bom             |7,782,360,000  |
+|CRFB3|ATACADÃO S.A.                                                   |0.28     |Varejo - Alimentício          |Novo Mercado     |0.54                |7.8            |Bom             |19,775,000,000 |
+|CPLE3|COPEL                                                           |0.34     |Energia - Distribuição        |Nível 2          |0.21                |8.2            |Ótimo           |23,253,100,000 |
+|CPLE5|COPEL                                                           |0.87     |Energia - Distribuição        |Nível 2          |0.21                |8.2            |Ótimo           |23,253,100,000 |
+|SAPR3|SANEPAR                                                         |0.57     |Saneamento                    |Nível 2          |0.69                |4.1            |Não Recomendada |9,744,200,000  |
+|SAPR4|SANEPAR                                                         |0.89     |Saneamento                    |Nível 2          |0.69                |4.1            |Não Recomendada |9,744,200,000  |
+|OIBR3|na                                                              |0        |na                            |na               |0.48                |-1             |na              |-26,822,900,000|
+|OIBR4|na                                                              |0        |na                            |na               |0.48                |-1             |na              |-26,822,900,000|
+|INEP3|INEPAR S/A                                                      |0        |Máquinas e Equipamentos       |na               |0.47                |na             |na              |-1,806,160,000 |
+|INEP4|INEPAR S/A                                                      |0        |Máquinas e Equipamentos       |na               |0.47                |na             |na              |-1,806,160,000 |
+|POSI3|POSITIVO INFORMATICA SA                                         |0.14     |Hardware                      |Novo Mercado     |0.26                |8.8            |Ótimo           |1,447,110,000  |
+|CASN3|CASAN                                                           |0.19     |Saneamento                    |Tradicional      |0.06                |6.2            |Regular         |2,010,770,000  |
+|TEKA3|TEKA S.A.                                                       |0        |Têxtil                        |na               |0.2                 |na             |na              |-2,032,660,000 |
+|TEKA4|TEKA S.A.                                                       |0        |Têxtil                        |na               |0.2                 |na             |na              |-2,032,660,000 |
+|CTKA3|KARSTEN                                                         |0        |Têxtil                        |Tradicional      |0.28                |7.8            |Bom             |-124,171,000   |
+|CTKA4|KARSTEN                                                         |0        |Têxtil                        |Tradicional      |0.28                |7.8            |Bom             |-124,171,000   |
+|EALT3|ELECTRO AÇO ALTONA S/A                                          |0.69     |Máquinas e Equipamentos       |na               |0.38                |na             |na              |231,271,000    |
+|EALT4|ELECTRO AÇO ALTONA S/A                                          |0.72     |Máquinas e Equipamentos       |na               |0.38                |na             |na              |231,271,000    |
+|INTB3|INTELBRAS S.A.                                                  |0.7      |Produtos Diversos             |Novo Mercado     |0.77                |8.8            |Ótimo           |2,468,360,000  |
+|PTBL3|PORTOBELLO S/A                                                  |0.62     |Produtos para Construção Civil|Novo Mercado     |0.51                |8.4            |Ótimo           |382,221,000    |
+|CLSC3|CELESC                                                          |0.89     |Energia - Distribuição        |Nível 2          |0.84                |0              |Não Recomendada |3,187,480,000  |
+|CLSC4|CELESC                                                          |0.7      |Energia - Distribuição        |Nível 2          |0.84                |0              |Não Recomendada |3,187,480,000  |
+|WEGE3|WEG SA                                                          |0.83     |Motores e Compressores        |Novo Mercado     |0.1                 |7.7            |Bom             |16,123,000,000 |
+|TUPY3|TUPY                                                            |0.21     |Automotivo                    |Novo Mercado     |0.94                |na             |na              |3,268,350,000  |
+|DOHL3|DOHLER                                                          |0        |Têxtil                        |Tradicional      |0.38                |7.8            |Bom             |699,312,000    |
+|DOHL4|DOHLER                                                          |0        |Têxtil                        |Tradicional      |0.38                |7.8            |Bom             |699,312,000    |
+|MWET3|WETZEL S.A.                                                     |0        |Automotivo                    |Tradicional      |0.73                |na             |na              |-10,384,000    |
+|MWET4|WETZEL S.A.                                                     |0        |Automotivo                    |Tradicional      |0.73                |na             |na              |-10,384,000    |
+|SHUL4|SCHULZ                                                          |0.61     |Automotivo                    |Tradicional      |0.48                |8.3            |Ótimo           |1,254,950,000  |
+|RSUL4|METALURGICA RIOSULENSE S/A                                      |0.75     |Automotivo                    |Tradicional      |0.85                |na             |na              |177,966,000    |
+|MTSA4|METISA                                                          |0.07     |Máquinas e Equipamentos       |Tradicional      |0.21                |na             |na              |431,507,000    |
+|JOPA3|JOSAPAR S/A                                                     |0.91     |Alimentos - Variados          |Tradicional      |0.28                |7.2            |Bom             |570,576,000    |
+|JOPA4|JOSAPAR S/A                                                     |0.67     |Alimentos - Variados          |Tradicional      |0.28                |7.2            |Bom             |570,576,000    |
+|FRAS3|FRAS-LE S.A.                                                    |0.13     |Automotivo                    |Nível 1          |0.41                |na             |na              |1,926,600,000  |
+|MNDL3|MUNDIAL                                                         |0        |Utensílios Domésticos         |Tradicional      |0.86                |7.6            |Bom             |155,887,000    |
+|POMO3|MARCOPOLO                                                       |0.27     |Automotivo                    |Nível 2          |0.55                |na             |na              |3,369,750,000  |
+|POMO4|MARCOPOLO                                                       |0.03     |Automotivo                    |Nível 2          |0.55                |na             |na              |3,369,750,000  |
+|PTNT4|PETTENATI                                                       |0.7      |Têxtil                        |Tradicional      |0.81                |na             |na              |375,241,000    |
+|PTNT3|PETTENATI                                                       |0.86     |Têxtil                        |Tradicional      |0.81                |na             |na              |375,241,000    |
+|RAPT3|RANDON S.A. IMPLEMENTOS E PARTICIPAÇÕES                         |0.54     |Automotivo                    |Nível 1          |0.08                |na             |na              |2,944,690,000  |
+|RAPT4|RANDON S.A. IMPLEMENTOS E PARTICIPAÇÕES                         |0.5      |Automotivo                    |Nível 1          |0.08                |na             |na              |2,944,690,000  |
+|SLCE3|SLC AGRICOLA SA                                                 |0.85     |Agronegócio                   |Novo Mercado     |0.75                |na             |na              |5,197,090,000  |
+|LUPA3|LUPATECH                                                        |0        |Máquinas e Equipamentos       |Novo Mercado     |0.34                |na             |na              |159,208,000    |
+|KLBN4|KLABIN                                                          |0.91     |Papel e Celulose              |Nível 2          |0.84                |na             |na              |11,585,100,000 |
+|KLBN3|KLABIN                                                          |0.91     |Papel e Celulose              |Nível 2          |0.84                |na             |na              |11,585,100,000 |
+|GRND3|GRENDENE SA                                                     |0.54     |Vestuário - Calçados          |Novo Mercado     |0.59                |na             |na              |3,483,510,000  |
+|MNPR3|MINUPAR                                                         |0        |Alimentos - Carnes e Derivados|Tradicional      |0.2                 |na             |na              |-322,426,000   |
+|UCAS3|na                                                              |0.58     |Móveis                        |Novo Mercado     |0.02                |na             |na              |197,009,000    |
+|RCSL3|RECRUSUL                                                        |0        |Máquinas e Equipamentos       |Tradicional      |0.9                 |na             |na              |116,000        |
+|RCSL4|RECRUSUL                                                        |0        |Máquinas e Equipamentos       |Tradicional      |0.9                 |na             |na              |116,000        |
+|DMFN3|DM FINANCEIRA S.A. - CRÉDITO, FINANCIAMENTO E INVESTIMENTO      |0.81     |Financeira                    |Tradicional      |0.63                |na             |na              |14,108,000     |
+|KEPL3|KEPLER WEBER SA                                                 |0.28     |Máquinas e Equipamentos       |Novo Mercado     |0.78                |na             |na              |681,618,000    |
+|CGRA3|GRAZZIOTIN                                                      |0.03     |Vestuário - Geral             |Tradicional      |0.06                |7.5            |Bom             |875,781,000    |
+|CGRA4|GRAZZIOTIN                                                      |0.44     |Vestuário - Geral             |Tradicional      |0.06                |7.5            |Bom             |875,781,000    |
+|LUXM3|TREVISA INVESTIMENTOS SA                                        |0        |Logística e Hidroviário       |Tradicional      |0.08                |na             |na              |120,715,000    |
+|LUXM4|TREVISA INVESTIMENTOS SA                                        |0.93     |Logística e Hidroviário       |Tradicional      |0.08                |na             |na              |120,715,000    |
+|PNVL3|PANVEL FARMÁCIAS                                                |0.26     |Varejo - Farmacêutico         |Novo Mercado     |0.47                |8.8            |Ótimo           |1,139,060,000  |
+|GOAU3|METALÚRGICA GERDAU                                              |0.79     |Holding                       |Nível 1          |0.96                |na             |na              |17,948,100,000 |
+|GOAU4|METALÚRGICA GERDAU                                              |0.26     |Holding                       |Nível 1          |0.96                |na             |na              |17,948,100,000 |
+|PATI3|PANATLANTICA                                                    |0.84     |Siderurgia                    |Tradicional      |0.76                |na             |na              |845,677,000    |
+|PATI4|PANATLANTICA                                                    |0.29     |Siderurgia                    |Tradicional      |0.76                |na             |na              |845,677,000    |
+|HETA3|HERCULES S/A                                                    |0        |Utensílios Domésticos         |Tradicional      |0.63                |8.1            |Ótimo           |-351,981,000   |
+|HETA4|HERCULES S/A                                                    |0        |Utensílios Domésticos         |Tradicional      |0.63                |8.1            |Ótimo           |-351,981,000   |
+|LREN3|RENNER                                                          |0.92     |Vestuário - Geral             |Novo Mercado     |0.69                |8.2            |Ótimo           |9,765,090,000  |
+|TASA3|TAURUS ARMAS S.A.                                               |0.93     |Armas e Munições              |Nível 2          |0.02                |7.5            |Bom             |1,108,070,000  |
+|TASA4|TAURUS ARMAS S.A.                                               |0.95     |Armas e Munições              |Nível 2          |0.02                |7.5            |Bom             |1,108,070,000  |
+|RANI3|na                                                              |0.81     |na                            |na               |0.05                |-1             |na              |1,290,940,000  |
+|TTEN3|na                                                              |0        |na                            |na               |0.67                |-1             |na              |3,172,940,000  |
+|BAUH4|EXCELSIOR                                                       |0.5      |Alimentos - Carnes e Derivados|Tradicional      |0.28                |na             |na              |98,833,000     |
+|LJQQ3|LOJAS QUERO-QUERO S.A.                                          |0.66     |Produtos para Construção Civil|Novo Mercado     |0.36                |7.4            |Bom             |503,826,000    |
+|DXCO3|DEXCO S.A.                                                      |0.9      |Produtos para Construção Civil|Novo Mercado     |0.39                |9.1            |Ótimo           |6,411,570,000  |

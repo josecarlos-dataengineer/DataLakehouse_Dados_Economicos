@@ -1,0 +1,31 @@
+
+services:
+  mysql:
+    hostname: mysql
+    build: 
+      context: ./
+      dockerfile: Dockerfile_sql
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - "3306:3306"
+    volumes:
+      - "mysql-db:/var/lib/mysql:rw"
+      - "./my.cnf:/etc/mysql/my.cnf:ro"
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+
+  python-app:
+    container_name: python-app
+    build:
+      context: ./
+      dockerfile: ./Dockerfile_py
+    command: sh -c "sleep 15s"
+    depends_on:
+      - mysql
+    ports:
+      - 8888:8888
+
+volumes:
+  mysql-db:

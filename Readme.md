@@ -10,6 +10,7 @@ O projeto consiste em coletar dados usando python e escrevê-los no datalake S3,
 | Docker_python | Feito |
 | Docker_spark | Feito |
 | Data Lake | Feito |
+| Exploração dos dados | feito |
 | Data LakeHouse | Em andamento |
 | Data Vault | Em andamento |
 | Airflow | Pendente |
@@ -19,8 +20,8 @@ O projeto consiste em coletar dados usando python e escrevê-los no datalake S3,
 A primeira etapa para configurar o ambiente é clonar este repositório.
 Após clonar, crie uma pasta chamada secrets, dentro da pasta builder, e dentro dessa pasta crie um arquivo chamado .env. Após criá-lo, registre suas credenciais AWS conforme abaixo:
 ```
-aws_access_key_id=515sa151561f51f56
-aws_secret_access_key_id=avvfuavufaf5a5f
+aws_access_key_id=suaaccesskey
+aws_secret_access_key_id=suasecretaccesskey
 aws_region=us-east-2
 ```
 Certifique-se alterar a região para a sua região preferida, e de não fazer upload desse arquivo para repositórios públicos. Pois suas credenciais podem ser utilizadas maliciosamente por terceiros.
