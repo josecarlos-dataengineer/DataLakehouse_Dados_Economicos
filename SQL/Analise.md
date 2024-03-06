@@ -1,4 +1,5 @@
 
+# Análise dos dados disponíveis.
 O objetivo dessa pasta é construir as consultas SQL que serão utilizadas para a exploração e descoberta dos dados, e entender como eles podem ser relacionados.
 Também nessa pasta estão apresentados alguns prints das primeiras análises no Power BI.
 
