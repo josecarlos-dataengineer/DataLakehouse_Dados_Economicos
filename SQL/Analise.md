@@ -207,6 +207,7 @@ FROM obt_b3 ob
 No Power BI foi feita a análise de crescimento de receita no últimos cinco anos, mostrando a relação entre crescimento e nota do reclame aqui, crescimento por atuação, empresas que mais cresceram e número de empresas agrupadas por faixa de crescimento e nota.
 
 ![alt text](imagens/primeira_analise.png)
+![alt text](image.png)
 
 
 ## Considerações
