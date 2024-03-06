@@ -224,8 +224,3 @@ https://www.fundamentus.com.br/resultado.php e https://www.reclameaqui.com.br/
 
 Pode haver pequenas distorções, pois a extração utilizada para este estudo de caso foi feita há mais de 20 dias.
 
-
-A análise trouxe luz para algumas questões:
-1 A tabela fundamentei não tem dados de todos os tickers, o que ocasionou 'NA' como resultado em muitos relacionamentos.
-2 Não foram encontrados os CNPJs de todos os tickers na tabela cad, o que ocasionou 'NA' como resultado em muitos relacionamentos.
-
