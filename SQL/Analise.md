@@ -199,7 +199,7 @@ coalesce(reclameaquitexto,'na') as reclameaquitexto,
 patrim_liq
 
 FROM obt_b3 ob 
-where atuacao = 'bancos'
+
 ```
 
 ## Power BI
