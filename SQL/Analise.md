@@ -210,11 +210,14 @@ No Power BI foi feita a análise de crescimento de receita no últimos cinco ano
 ## Considerações
 As primeiras validações mostram que não há divergência no relacionamento entre as tabelas fundamentus, cad e fundamentei:
 A imagem abaixo mostra campos da tabela obt, que vem de três tabelas diferentes.
+
 Papel: fundamentus
 DENOM_COMERCIAL: cad
 crescimento: fundamentus
 Nota reclame aqui: fundamentei
-![alt text](imagens/validacao.png)
+![alt text](imagens/validacao.png) <br>
+Há casos em que a nota é mencionada como -1, e estes casos indicam que no momento da extração dos dados não havia nota.
+Há casos em que a DENOM_COMERCIAL não é encontrada, para estes será buscada uma outra fonte de dados mais completa ou suplementar.
 
 Ao validar o crescimento e a nota do reclame aqui, que são dados de duas tabelas distintas, checando nos sites:
 https://www.fundamentus.com.br/resultado.php e https://www.reclameaqui.com.br/
