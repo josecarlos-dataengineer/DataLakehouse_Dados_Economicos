@@ -89,23 +89,9 @@ dotenv_path = Path(fr'{pwd}/builder/secrets/.env')
 A variável pwd recebe o caminho do root, que pode ser local ou container. Este valor vem do dicionário workdir contido no módulo params.py. Caso você tente executar localmente, o parâmetro do dicionário deverá ser **local** e o valor do dicionário deverá ser o caminho para a pasta DATALAKEHOUSE_DADOS_ECONOMICOS clonada na sua máquina.
 Caso for executar em container Docker, não é necessário alterar o caminho, pois ele já é definido como WORKDIR durante a montagem da imagem Dockerfile_python. 
 
+# Primeiras análises dos dados
+Com os dados do Datalake, foram feitas algumas análises em SQL e POWER BI. Você pode checar na pasta SQL.
 
 
 
 
-# Project.
-
-This repository keeps a Data Engineering project that aims to gather data from Braziian economic landscape. Initially, most of data is about companies which are listed on B3 (Brasil, Bolsa, Balcão).
-
-The project consists of collecting data using python applications and writting it on S3 datalake, then making needed data cleaning and tranformations. Once data is available on datalake, it is transformed into a Data Lake House by using Delta and Pyspark. The whole enviroment will be based on Docker containers orchestrated by kubernetes operators in Airflow.
-
-## Project Status.
-| Stage | Status |
-| ------| ------ |
-| Python - ELT DataLake | Feito |
-| Docker | Pending |
-| Data Lake | Pending |
-| Data LakeHouse | Pending |
-| Data Vault | Pending |
-| Airflow | Pending |
-| Cluster Kubernetes | Pending |
