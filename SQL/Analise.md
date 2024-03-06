@@ -216,8 +216,8 @@ DENOM_COMERCIAL: cad
 crescimento: fundamentus
 Nota reclame aqui: fundamentei
 ![alt text](imagens/validacao.png) <br>
-Há casos em que a nota é mencionada como -1, e estes casos indicam que no momento da extração dos dados não havia nota.
-Há casos em que a DENOM_COMERCIAL não é encontrada, para estes será buscada uma outra fonte de dados mais completa ou suplementar.
+* Há casos em que a nota é mencionada como -1, e estes casos indicam que no momento da extração dos dados não havia nota.
+* Há casos em que a DENOM_COMERCIAL não é encontrada, para estes será buscada uma outra fonte de dados mais completa ou suplementar.
 
 Ao validar o crescimento e a nota do reclame aqui, que são dados de duas tabelas distintas, checando nos sites:
 https://www.fundamentus.com.br/resultado.php e https://www.reclameaqui.com.br/
