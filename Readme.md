@@ -90,9 +90,9 @@ A variável pwd recebe o caminho do root, que pode ser local ou container. Este 
 Caso for executar em container Docker, não é necessário alterar o caminho, pois ele já é definido como WORKDIR durante a montagem da imagem Dockerfile_python. 
 
 # Primeiras análises dos dados
-Com os dados do Datalake, foram feitas algumas análises em SQL e POWER BI.
-[Power BI](https://github.com/josecarlos-dataengineer/DataLakehouse_Dados_Economicos/blob/main/SQL/Analise.md#power-bi)
-[SQL](https://github.com/josecarlos-dataengineer/DataLakehouse_Dados_Economicos/blob/main/SQL/Analise.md#power-bi)
+Com os dados do Datalake, foram feitas algumas análises em SQL e POWER BI. Você pode checar nos links abaixo: <br>
+[Power BI](https://github.com/josecarlos-dataengineer/DataLakehouse_Dados_Economicos/blob/main/SQL/Analise.md#power-bi) <br>
+[SQL](https://github.com/josecarlos-dataengineer/DataLakehouse_Dados_Economicos/blob/main/SQL/Analise.md#cria%C3%A7%C3%A3o-da-tabela-obt_b3)
 
 
 
