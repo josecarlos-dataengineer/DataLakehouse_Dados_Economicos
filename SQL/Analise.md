@@ -228,7 +228,7 @@ https://www.fundamentus.com.br/resultado.php e https://www.reclameaqui.com.br/
 Pode haver pequenas distorções, pois a extração utilizada para este estudo de caso foi feita há mais de 20 dias.
 
 Próximos passos:
-Checar se todos os campos numéricos foram devidamente conovertidos.
+Checar se todos os campos numéricos foram devidamente convertidos.
 Criar análise de vendas de bens e serviços por cpnj de acordo com o última divulgação de resultados de 2023.
 
 
